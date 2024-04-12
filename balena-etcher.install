@@ -1,0 +1,8 @@
+post_install() {
+    echo "export GTK_USE_PORTAL=1" | tee "/etc/profile.d/kde-file-picker.sh"
+    chmod 755 "/etc/profile.d/kde-file-picker.sh"
+}
+
+post_upgrade() {
+    post_install
+}
