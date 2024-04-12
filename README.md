@@ -12,6 +12,10 @@ _Here at balena we have thousands of users working through our getting started p
 
 _So we built Etcher, an SD card flasher app that is simple for end users, extensible for developers, and works on any platform._
 
+#### ***Since Ventoy does not boot wit the latest KaOS ISO - `KaOS 2024.03 ISO` - image, the only known image writers that works now are `dd`, KDE's `ISO Image Writer`, `Balena Etcher` and/or any other image writer 'in `dd` mode'.***
+
+*Enjoy !*
+
 #### Features:
 
 * Create USB installation media from bootable ISOs
